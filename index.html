@@ -9,23 +9,33 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
-    <h1>World Clock</h1>
+    <div class="container">
+      <h1>World Clock</h1>
+      <select>
+        <option value="">Select a city...</option>
+        <option value="">Las Vegas</option>
+        <option value="">Needham</option>
+        <option value="">Oxford</option>
+        <option value="">Barcelona</option>
+      </select>
 
-    <select name="" id="city">
-      <option value="">Select a city</option>
-      <option value="Europe/Paris">Paris</option>
-
-      <option value="Asia/Tokyo">Tokyo</option>
-
-      <option value="Australia/Sydney">Sydney</option>
-    </select>
-
-    <script src="src/index.js"></script>
-    <footer>
-      This project was coded by Sheronda McKee-Dollar, and is
-      <a href="https://github.com/SherondaMD/world_clock_smd">
-        open sourced on GitHub.</a
-      >
-    </footer>
+      <div class="city">
+        <h2>Los Angeles</h2>
+        <div class="date">July 15th 2023</div>
+        <div class="time">14:28 PM</div>
+      </div>
+      <div class="city">
+        <h2>Sydney</h2>
+        <div class="date">July 15th 2023</div>
+        <div class="time">14:28:15 PM</div>
+      </div>
+      <script src="src/index.js"></script>
+      <footer>
+        This project was coded by Sheronda McKee-Dollar, and is
+        <a href="https://github.com/SherondaMD/world_clock_smd">
+          open sourced on GitHub.
+        </a>
+      </footer>
+    </div>
   </body>
 </html>
