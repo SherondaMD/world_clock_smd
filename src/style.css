@@ -1,5 +1,10 @@
 body {
-  background-color: #f9f7f3;
+  background-color: hsl(240, 55%, 87%);
+}
+
+img {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
 }
 
 select {
@@ -11,14 +16,13 @@ select {
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 36px;
 }
 
 h2 {
   text-align: center;
-
-  font-family: sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin: 0 0 10px;
   font-size: 28px;
 }
@@ -26,7 +30,7 @@ h2 {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: whitesmoke;
   padding: 40px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
@@ -40,12 +44,16 @@ h2 {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 
+.city:last-child {
+  border-bottom: none;
+}
+
 .date {
   opacity: 0.7;
 }
 
 .time {
-  font-size: 48px;
+  font-size: 44px;
   font-weight: bold;
 }
 
